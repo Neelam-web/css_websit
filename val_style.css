@@ -1,0 +1,445 @@
+*{ margin: 0px;
+    padding: 0px;
+    list-style: none;
+    
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+
+ .menu{ width: 100%;
+    height: 50px;
+       margin: auto;
+       background-color: black;
+ }
+ .menu>ul{ display: flex;
+ 
+ }
+ .menu>ul>li{ font-size: 15px;
+          margin-left: 40px;      
+       padding-left: 20px;
+              padding: 12px;
+             color: whitesmoke;
+             position: relative;
+ 
+ }
+ .submenu{ position: absolute;
+          width: 150px;
+          background-color: black;
+         color: whitesmoke;
+         left: -100px;
+         top: 100%;
+         opacity: 0;
+        transition: 0.5s;
+        visibility: hidden;
+ }
+ .menu ul li a {   color: whitesmoke;
+ 
+ }
+ .menu ul li a:hover{   background-color: rgb(241, 192, 28);
+                          color: #000;
+                           font-size: 18px;
+                           transition: all 1s;
+ 
+ 
+ }
+ .submenu li{ padding-top: 12px;
+             padding-left: 12px;
+             cursor: pointer;
+ }
+ 
+ .submenu li:hover{ background-color: rgb(241, 192, 28);
+                   color: black;
+                   transition: 0.5s;
+ 
+ 
+ 
+ }
+ .menu>ul>li:hover .submenu{
+               opacity: 1;
+             left: 0px;
+             visibility: visible;
+             background-color: black;
+             color: whitesmoke;
+ 
+ }
+
+ .container{ width: 100%;
+    height: 110%;
+    padding-top: 150px;
+    padding-left: 15px;
+   display: flex;
+   flex-wrap: wrap;
+  row-gap: 30px;
+  column-gap: 26px;
+  padding-right: 15px;
+  
+  
+}
+.image{
+      width: 32%;
+      height: 800px;
+      padding-top: 10px;
+    position: relative;
+    /* border: 2px solid whitesmoke; */
+   /* box-shadow: 2px 2px 5px  black; */
+}         
+.image button{   width: 100%;
+         position: absolute;
+         height: 30px;
+         font-size: 20px;
+         font-weight: bold;
+      margin-top: 760px;
+      bottom: -40px;
+      left: 0px;
+      opacity: 0;
+      background-color: rgb(241, 192, 28);
+      color: black;
+      transition: 1s;
+      
+}
+.image:hover button{ bottom: 0;
+opacity: 1;
+font-size: 15px;
+
+color: rgb(241, 192, 28);
+background-color: #000;
+
+}
+.image1{ background-image: url("https://www.aishaimranofficial.com/images/thumbs/0002724_cerise_700.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} 
+.image1:hover{  background-image: url("https://www.aishaimranofficial.com/images/thumbs/0002727_cerise.jpeg");
+             cursor: pointer;
+
+
+}
+.image2{ background-image: url("https://www.aishaimranofficial.com/images/thumbs/0002737_sofia_700.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.image2:hover{
+         background-image: url("https://www.aishaimranofficial.com/images/thumbs/0002739_sofia.jpeg");
+         cursor: pointer;
+
+}
+.image3{ background-image: url("https://www.aishaimranofficial.com/images/thumbs/0002744_sofia.jpeg");
+
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+.image3:hover{ background-image: url("https://www.aishaimranofficial.com/images/thumbs/0002743_sofia.jpeg");
+
+               cursor: pointer;
+
+}
+
+.image4{ background-image: url("https://www.aishaimranofficial.com/images/thumbs/0002382_nermin_700.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.image4:hover{ background-image: url("https://www.aishaimranofficial.com/images/thumbs/0002384_nermin.jpeg");
+       cursor: pointer;
+
+}
+.image5{ background-image: url("https://www.aishaimranofficial.com/images/thumbs/0002398_dua_700.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.image5:hover{ background-image: url("https://www.aishaimranofficial.com/images/thumbs/0002401_dua.jpeg");
+      cursor: pointer;
+
+}
+.image6{
+background-image: url("https://www.aishaimranofficial.com/images/thumbs/0001581_shafaq_700.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.image6:hover{ background-image: url("https://www.aishaimranofficial.com/images/thumbs/0001580_shafaq.jpeg");
+       cursor: pointer;
+
+
+}
+.image7{ background-image: url("https://www.aishaimranofficial.com/images/thumbs/0001574_nazmin_700.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.image7:hover{ background-image: url("https://www.aishaimranofficial.com/images/thumbs/0001577_nazmin.jpeg");
+        cursor: pointer;
+       
+}
+.image8{ background-image: url("https://www.aishaimranofficial.com/images/thumbs/0001588_gulnaz_700.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.image8:hover{ background-image: url("https://www.aishaimranofficial.com/images/thumbs/0001587_gulnaz.jpeg");
+      cursor: pointer;
+
+}
+.image9 { background-image: url("https://www.aishaimranofficial.com/images/thumbs/0001092_leyla_700.jpeg");
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+.image9:hover{ background-image: url("https://www.aishaimranofficial.com/images/thumbs/0001093_leyla.jpeg");
+           cursor: pointer;
+
+}
+
+.image10{
+background-image: url("https://www.aishaimranofficial.com/images/thumbs/0000949_zeenat-un-nissa_700.jpeg");
+
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.image10:hover{ background-image: url("https://www.aishaimranofficial.com/images/thumbs/0000948_zeenat-un-nissa.jpeg");
+     cursor: pointer
+}
+.image11
+{   background-image: url("https://www.aishaimranofficial.com/images/thumbs/0002366_afsheen_700.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.image11:hover{ background-image: url("https://www.aishaimranofficial.com/images/thumbs/0002368_afsheen.jpeg");
+        /* background-image: url("https://www.aishaimranofficial.com/images/thumbs/0002306_jehan.jpeg"); */
+        /* background-image: url("https://www.aishaimranofficial.com/images/thumbs/0002301_jehan.jpeg"); */
+     cursor: pointer;
+
+}
+.image12{ background-image: url("https://www.aishaimranofficial.com/images/thumbs/0002419_nazmin_700.jpeg");
+
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.image12:hover{ background-image: url("https://www.aishaimranofficial.com/images/thumbs/0002422_nazmin.jpeg");
+            cursor: pointer;
+
+
+}
+.image13{ background-image: url("https://www.aishaimranofficial.com/images/thumbs/0002388_ilham_700.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.image13:hover{ background-image: url("https://www.aishaimranofficial.com/images/thumbs/0002391_ilham.jpeg");
+       cursor: pointer;
+
+
+
+}
+.image14{
+background-image: url("https://www.aishaimranofficial.com/images/thumbs/0001366_taleya_700.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.image14:hover{ background-image: url("https://www.aishaimranofficial.com/images/thumbs/0001368_taleya.jpeg");
+        cursor: pointer;
+
+
+}
+.image15{
+background-image: url("https://www.aishaimranofficial.com/images/thumbs/0000119_kohinoor_700.jpeg");
+
+background-repeat: no-repeat;
+background-size: cover;
+}
+.image15:hover{ background-image: url("https://www.aishaimranofficial.com/images/thumbs/0000118_kohinoor.jpeg");
+        cursor: pointer;
+
+}
+.image16{ background-image: url("https://www.aishaimranofficial.com/images/thumbs/0000204_secret-whisper_700.jpeg");
+
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.image16:hover{
+background: url("https://www.aishaimranofficial.com/images/thumbs/0000203_secret-whisper.jpeg");
+cursor: pointer;
+  background-size: cover;
+}
+.image17{ background-image: url("https://www.aishaimranofficial.com/images/thumbs/0000600_heer-sultan.jpeg");
+
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.image17:hover{ background-image: url("https://www.aishaimranofficial.com/images/thumbs/0000601_heer-sultan.jpeg");
+     cursor: pointer;
+        background-size: cover;
+}
+.container1{ width: 100%;
+        height: 400px;
+       background-color: black;
+       color:  whitesmoke;
+       display: flex;
+       justify-content: space-around;
+      
+
+            
+
+
+
+
+}
+.box1 h2 {padding-left: 2px;
+     padding-top: 40px;
+    margin-left: 2px;
+
+
+}
+.box1 p{ padding-top: 10px;
+ padding-top: 20px;
+
+
+
+}
+.box1 h2:hover{ 
+         color: rgb(241, 192, 28);
+         font-size: 30px;
+       
+
+
+}
+.box1 p:hover{
+       color: rgb(241, 192, 28);
+      font-size: 20px;
+      transition: all 1s;
+   
+}
+.box2 h2{ padding-top: 40px;
+     padding-bottom: 20px;
+
+
+
+}
+.box2 h2:hover{ 
+             color: rgb(241, 192, 28);
+            font-size: 20px;
+              transition: all 1s;
+
+}
+.box3 h2 {
+   padding-top: 40px;
+   padding-bottom: 20px;
+
+  
+}   
+.box3 h2:hover{ color: rgb(241, 192, 28);
+                 font-size: 15px;
+                 transition: all 1s;
+
+} 
+.box3 form:hover{
+
+ color: rgb(241, 192, 28);
+ font-size: 15px;
+}
+.gg { font-size: 35px;
+    
+   text-align: center;
+   border-radius: 10%;
+   line-height: 30px;
+   padding-left: 20px;
+   padding-top: 20ox;
+   margin-bottom: 5px;
+     background-color: black;
+      color: white;
+
+}
+.gg:hover{ transition: all 1s;
+       font-size: 40px;
+       background-color: rgb(241, 192, 28);
+        color: black;
+
+
+
+
+}
+.copy{  
+   
+
+}
+
+.send{ width: 60px;
+height: 30px;
+
+}
+.fonts a{ color: whitesmoke;
+
+
+}
+
+.fonts a:hover{ font-size: 20px;
+        transition: 1s;
+        background-color: rgb(241, 192, 28);
+        color: black;
+
+
+
+
+}
+           
+@media (max-width: 768px){ 
+
+        .container{ width: 100%;
+          
+      
+      }
+        .image{ width: 96%;
+                   height: 400px;
+                   margin-left: 2px;
+                   margin-right: 2px;
+                   font-size: 5px;
+        
+        }
+         .menu{
+              width: 100%;
+      
+         }
+      .menu ul li{ width: 2%;
+                   padding-left: 0px;
+                   padding-right: 1px;
+                    font-size: 2px;
+                  /* margin-left: 1px; */
+                 /* margin-right: 1px; */
+      
+      }   .container1{ width: 100%;
+      
+      }
+         .box1 p{
+      
+          width: 2%;
+          margin-left: 1px;
+          margin-right: 1px;
+          font-size: 3px;
+         }
+           .box2 h2{
+                 width: 1%;
+                font-size: 3px;
+      
+           }
+           .box3 h2{
+                    display: none;
+      
+           }
+      .form{
+      
+        display: none;
+      }
+      
+      }
+            
+      
